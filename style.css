@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(244, 249, 253);
+    padding: 0;
+    margin: 0;
+    font-family: "Calibri Light",Arial, Helvetica, sans-serif;
+    
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    height: 3.5em;
+    color: azure;
+    min-width: 1200px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 0px 2px 11px 0px rgba(79,79,79,1);
+    -moz-box-shadow: 0px 2px 11px 0px rgba(79,79,79,1);
+    box-shadow: 0px 2px 11px 0px rgba(79,79,79,1);
+    z-index: 10;
+}
+div.container{
+    margin-top: 3.5em;
+    height: calc(100vh - 3.5em);
+    min-width: 1200px;
+    width: 100%;
+}
+div.container div.panel{
+    position: static;
+    float: left;
+    height: calc(100vh - 3.5em);
+   
+    
+}
+.panel.left{
+    width: 25%;
+    padding: 15px;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(52, 100, 46);
+}
+.panel.left h3{
+    font-weight: 100;
+    margin: 0;
+    margin-bottom:9px;
+    text-transform: uppercase; 
+    border-bottom: 1px solid white;
+}
+.panel.left h2{
+    font-weight: 100;
+    margin: 0;
+    margin-bottom:9px;
+    color: rgb(248, 244, 191);
+    font-size: 1.15em;
+}
+.panel.right{
+    width: 75%;
+    padding: 20px;
+}
+div.gridcontainer{
+    width: 100%;
+    height: calc(100vh - 5em);
+    overflow-y: auto;
+   
+}
+div.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;;
+}
+div.right{
+    position:absolute;
+    top: 15%;
+    right: 0;
+    padding-right:1.5em;
+    font-size: 1em;
+    
+}
+
+.exe-param{
+    color: rgb(253, 177, 34);
+}
+.exe-val.status-pass{
+    color: rgb(153, 250, 153);
+}
+nav h1{
+    color:  rgb(255, 218, 115);
+    margin: 0;
+    
+    font-weight: 100;
+    padding-left: 1em;
+    position: relative;
+    top: 20%;
+}
+table.gridtable{
+    width: 100%;
+    border: 1px solid #25697a;
+    border-collapse: collapse
+}
+
+table.gridtable tr>th{
+    background-color:  #25697a;
+    padding: 0.8em;
+    text-align: center;
+    color: azure;
+    font-weight: 100;
+    
+    
+}
+table.gridtable tr>td{
+    padding: 0.8em;
+    height: 1.3em;;
+}
+table.gridtable tr:nth-child(even){
+    background-color: #f4fdff;
+}
+table.gridtable tr:nth-child(odd){
+    background-color: #cde6ec;
+}
+table.gridtable tr>td:nth-child(1){
+    width:90px;
+}
+table.gridtable tr>td:nth-child(2){
+    width:290px;
+}
+table.gridtable tr>td:nth-child(3){
+    width:400px;
+}
+table.gridtable tr>td:nth-child(4){
+    width:100px;
+}
+table.gridtable tr>td:nth-child(5){
+    width:100px;
+}
